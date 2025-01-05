@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1400</width>
+    <width>1800</width>
     <height>900</height>
    </rect>
   </property>
@@ -73,10 +73,10 @@
    <widget class="QTextEdit" name="TE_RX_RAW">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>730</y>
-      <width>500</width>
-      <height>90</height>
+      <x>1400</x>
+      <y>10</y>
+      <width>371</width>
+      <height>801</height>
      </rect>
     </property>
    </widget>
@@ -542,8 +542,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1400</width>
-     <height>21</height>
+     <width>1800</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>

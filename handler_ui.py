@@ -8,7 +8,7 @@ class HandlerUI(QMainWindow, form_class):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.setFixedSize(1400, 900)
+        self.setFixedSize(1800, 900)
 
         self.serial_handler = None
         self.plot_handler = None
