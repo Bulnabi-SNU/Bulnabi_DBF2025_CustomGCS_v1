@@ -64,7 +64,10 @@ class HandlerSerial:
                     self.controller.plot_handler_mag_yz.update_plot(recv_raw_mag_y)
                     self.controller.plot_handler_mag_zx.update_plot(recv_raw_mag_z)
 
-                    self.controller.ui.TE_RX_RAW.setText(line)
+                    # self.controller.ui.TE_RX_RAW.setText(line)
+                    pretty_data = json.dumps(data, indent=4, ensure_ascii=False)  # 보기 좋게 포매팅
+                    self.controller.ui.TE_RX_RAW.setText(pretty_data)
+
                 except ValueError:
                     print(f"Invalid data: {line}")
             else:
