@@ -1,5 +1,17 @@
+branca==0.8.1
+certifi==2024.12.14
+charset-normalizer==3.4.1
+folium==0.19.4
+idna==3.10
+Jinja2==3.1.5
+MarkupSafe==3.0.2
 numpy==2.2.1
 PyQt5==5.15.11
 PyQt5-Qt5==5.15.2
 PyQt5_sip==12.16.1
 pyqtgraph==0.13.7
+PyQtWebEngine==5.15.7
+PyQtWebEngine-Qt5==5.15.2
+requests==2.32.3
+urllib3==2.3.0
+xyzservices==2024.9.0

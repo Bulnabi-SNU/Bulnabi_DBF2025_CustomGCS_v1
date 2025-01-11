@@ -15,6 +15,8 @@ env\Scripts\activate
 
 pip install pyqt5
 pip install pyqtgraph
+pip install folium
+pip install PyQtWebEngine
 
 or 
 
